@@ -1,0 +1,38 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--clr-bg);
+  font-family: "Balsamiq Sans", cursive;
+  overflow: hidden;
+}
+h1{
+    text-align: center;
+    size: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+.button{
+    width: 100px;
+    height: 100px;
+    display: inline;
+    flex-wrap: wrap;
+}
+#reset{
+    background-color: rgb(214, 146, 132);
+    margin-top: 50px;
+    margin-left: 40%;
+}
